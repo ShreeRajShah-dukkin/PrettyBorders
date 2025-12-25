@@ -1,19 +1,23 @@
-to run this application
+# PrettyBorders
 
-1. you must first change directory to the "prettyborders"
-   to do so copy this and paste into the terminal
-   cd prettyborders
+A lightweight Windows utility that highlights the active window
+with a clean, click-through border.
 
-2. then run this command this command will download the necessary files and
-   requirements to run this application
+## Features
 
-   "dotnet build"
+- Active window detection
+- Click-through overlay
+- Tray toggle (enable/disable)
+- No focus stealing
 
-3. to finally run the program use this command
-   "dotnet run"
+## Build
 
-4. when the run is a sucsess there will be a white border around the apps os vscode
+````bash
+dotnet build
 
-5. to enable/disable the border there will be a app called prettyborders in your app tray in the right corner of the screen ^ <-- right click and you can enable/disable the border and exit the app if you like.\
 
-to just get the app DM me on insta Shreeraj798
+## Run
+```bash
+dotnet run
+
+````
